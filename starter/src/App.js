@@ -10,7 +10,7 @@ function App() {
   const [books, setBooks] = useState([]);
   const [query, setQuery] = useState("");
   const updateQuery = (query) => {
-    setQuery(query.trim());
+    setQuery(query);
   };
   const [searchResults, setSearchResults] = useState([]);
   const [mergedBooks, setMergedBooks] = useState([]);
